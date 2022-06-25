@@ -2,7 +2,7 @@
 
 To help drivers with awareness of the road. By using machine learning to identify when traffic cones are present on the road, safety for drivers can be improved.
 
-[In the test image, the algorithm detects the presence of a traffic cone.](https://user-images.githubusercontent.com/95560015/175785847-53bd1812-1fe9-47db-a4d1-d44d1699cdf3.png)
+In the test image, the algorithm detects the presence of a traffic cone.[](https://user-images.githubusercontent.com/95560015/175785847-53bd1812-1fe9-47db-a4d1-d44d1699cdf3.png)
 
 
 ## The Algorithm
