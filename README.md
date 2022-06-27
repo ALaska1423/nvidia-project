@@ -15,14 +15,23 @@ Using samples of traffic cones and empty roads, this network has been trained to
 ## Running this project
 
 1. Install the [jetson inference project]([url](https://github.com/dusty-nv/jetson-inference)) to your home directory
+
 2. Install this project into the home directory.
+
 3. Change directory to this project 
+
    cd nvidia-project
+
 4. Set the DATASET and NET variables
+
    NET=models/cone_road
+
    DATASET=data/cone_road
+
 5. To process image of choice, place the image into 'data/cone_road/test/cone'
-6. Run the imagenet.py using a image of choice. The command should be written as below, replacing the directory with image of choice. 
+6. Run the imagenet.py using a image of choice. The command should be written as below, replacing the directory with image of choice.
+ 
    imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/cone/("name of file"  ("name of output file".png)
+
 
 [View a video explanation here](video link)
