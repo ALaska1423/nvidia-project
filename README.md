@@ -34,4 +34,4 @@ Using samples of traffic cones and empty roads, this network has been trained to
    imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/cone/("name of file")  ("name of output file".png)
 
 
-[View a video explanation here](video link)
+[View a video explanation here](https://youtu.be/a6ecYL6QiJs)
